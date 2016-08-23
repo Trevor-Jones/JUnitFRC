@@ -21,5 +21,7 @@ public class DriveTest {
 	@Test
 	public void equalsTest() {
 		assertEquals(0,0);
+		assertEquals(2,2);
+		assertEquals(5,4);
 	}
 }
