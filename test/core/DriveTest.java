@@ -7,7 +7,7 @@ import core.Drive;
 public class DriveTest {
 
 	@Test
-	public void test() {
+	public void test() throws Exception {
  		double[] answersLeft = {1,-.95,-1,0.6,1,0,-1,-.6,1,0.9,-1,-1};
 		double[] answersRight = {-1,-1,0.81,1,-0.32,-1,-0.3,1,0.8,-1,-1,1};
 		Drive drive = new Drive();
@@ -19,7 +19,7 @@ public class DriveTest {
 	}
 	
 	@Test
-	public void equalsTest() {
+	public void equalsTest() throws Exception {
 		assertEquals(0,1);
 	}
 }
