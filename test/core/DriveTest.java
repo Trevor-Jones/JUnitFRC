@@ -17,9 +17,4 @@ public class DriveTest {
 			assertEquals(String.format("Wow, test number %d of the right side was incorrect.", (i/30)), answersRight[i/30],leftRight[1],0.05);
 		}
 	}
-	
-	@Test
-	public void equalsTest() {
-		assertEquals(0,0);
-	}
 }
