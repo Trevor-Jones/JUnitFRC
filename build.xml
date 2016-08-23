@@ -22,7 +22,7 @@
   <!-- Any other property in build.properties can also be overridden. -->
 
   <property environment="env"/>
-  <condition property="wpilib.root" value="lib" else="${user.home}">
+  <condition property="wpilib.root" value="lib">
     <isset property="env.TRAVIS" />
   </condition>
 
