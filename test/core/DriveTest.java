@@ -13,8 +13,13 @@ public class DriveTest {
 		Drive drive = new Drive();
 		for(int i = 0; i < 360; i+=30) {
 			double[] leftRight = drive.drive(1, i);
-			assertEquals(answersLeft[i/30],leftRight[0],0.05);
-			assertEquals(answersRight[i/30],leftRight[1],0.05);
+			assertEquals(String.format("Wow, test number %d of the left side was incorrect.", (i/30)), answersLeft[i/30],leftRight[0],0.05);
+			assertEquals(String.format("Wow, test number %d of the right side was incorrect.", (i/30)), answersRight[i/30],leftRight[1],0.05);
 		}
+	}
+	
+	@Test
+	public void equalsTest() {
+		assertEquals(0,0);
 	}
 }
