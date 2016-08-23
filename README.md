@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/Trevor-Jones/JUnitFRC.svg?branch=master)](https://travis-ci.org/Trevor-Jones/JUnitFRC)
+[![build status](https://gitlab.com/Trevor-Jones/JUnitFRC/badges/master/build.svg)](https://gitlab.com/Trevor-Jones/JUnitFRC/commits/master)
